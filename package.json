@@ -1,0 +1,22 @@
+{
+  "name": "eternajs-puzzle-collaboration-test",
+  "version": "1.0.0",
+  "description": "A prototype for a collaboration system in EternaJS using websockets. Includes a server and client.",
+  "main": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "start": "tsc index.ts --esModuleInterop && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.26",
+    "@types/sockjs": "^0.3.32",
+    "@types/websocket": "^1.0.1",
+    "@types/ws": "^7.2.6",
+    "sockjs": "^0.3.20",
+    "websocket": "^1.0.31",
+    "ws": "^7.3.1"
+  }
+}
